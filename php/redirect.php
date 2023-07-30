@@ -30,7 +30,7 @@ if ($result->num_rows === 1) {
 } else {
     // If the short URL is not found in the database, you can handle the error here
     // For example, redirect to a 404 page or the homepage.
-    header("Location: your_error_page.php");
+    header("Location: ../html/404.html");
     exit;
 }
 
